@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+
+# Firebase secrets
+backend/app/firebase_key.json
+
+# OS files
+.DS_Store

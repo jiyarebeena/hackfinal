@@ -1,0 +1,50 @@
+body {
+  background: radial-gradient(
+      circle at top,
+      #1a2a24,
+      #0b0f0d
+  );
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(14px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+.hero {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 48px;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.subtitle {
+  opacity: 0.8;
+  margin: 12px 0 32px;
+}
+.dashboard {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 32px;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.stat {
+  background: rgba(255,255,255,0.03);
+  padding: 20px;
+  border-radius: 14px;
+}

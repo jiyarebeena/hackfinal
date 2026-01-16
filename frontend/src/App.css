@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #111827;
+  color: #e5e7eb;
+  padding: 2.5rem;
+  width: 440px;
+  border-radius: 16px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+h1 {
+  color: #34d399;
+}
+
+.subtitle {
+  color: #9ca3af;
+  margin-bottom: 1.5rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.primary {
+  background: #22c55e;
+  color: black;
+}
+
+.primary:hover {
+  background: #16a34a;
+}
+
+.secondary {
+  background: #0ea5e9;
+  color: black;
+}
+
+.actions button {
+  background: #1f2933;
+  color: white;
+}
+
+.actions button:hover {
+  background: #374151;
+}
+
+.disabled {
+  background: #374151;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+
+.loading {
+  color: #93c5fd;
+}
+
+.result {
+  text-align: left;
+}
+
+.co2 {
+  color: #22c55e;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px 0;
+  border-bottom: 1px solid #374151;
+}
+
+li.high {
+  color: #f87171;
+  font-weight: bold;
+
+.analytics-card {
+  transition: transform 0.3s ease;
+}
+
+.analytics-card:hover {
+  transform: translateX(10px);
+  border-left: 4px solid #00ff96 !important;
+  background: rgba(0, 255, 150, 0.03) !important;
+}
+
+/* Red alert for high impact items in the report */
+.remedy-alert {
+  color: #ff4444;
+  font-weight: bold;
+  animation: flicker 1.5s infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}}
